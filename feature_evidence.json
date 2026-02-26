@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-any-lucid-glassmorphism-or-frosted-glass-background-effects-on-the-splash-screen-with-a-clean-light-background-use-soft-light-neutral-tones-e-g-off-white-light-warm-gray-or-very-light-teal-tint-with-a-subtle-gradient-or-gentle-texture-instead-all-overlay-panels-cards-and-button-containers-should-also-use-light-opaque-or-lightly-translucent-styles-no-blurred-glass-or-heavy-transparency-effects-ensure-text-and-buttons-remain-clearly-legible-against-the-light-background",
+      "featureTitle": "Replace any lucid, glassmorphism, or frosted-glass background effects on the splash screen with a clean, light background. Use soft, light neutral tones (e.g., off-white, light warm gray, or very light teal tint) with a subtle gradient or gentle texture instead. All overlay panels, cards, and button containers should also use light, opaque or lightly translucent styles — no blurred glass or heavy transparency effects. Ensure text and buttons remain clearly legible against the light background.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/src/pages/SplashScreen.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

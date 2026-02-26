@@ -1,0 +1,44 @@
+{
+  "kind": "build_request",
+  "title": "Replace lucid/glass effect with light, subtle background",
+  "projectName": "Home Assist",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Replace any lucid, glassmorphism, or frosted-glass background effects on the splash screen with a clean, light background. Use soft, light neutral tones (e.g., off-white, light warm gray, or very light teal tint) with a subtle gradient or gentle texture instead. All overlay panels, cards, and button containers should also use light, opaque or lightly translucent styles — no blurred glass or heavy transparency effects. Ensure text and buttons remain clearly legible against the light background.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "instead of lucid thing can we use light background and instead of lucid keep it subtle"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The splash screen background is light (off-white, warm light gray, or very light teal tint) with no dark or heavily saturated colors dominating.",
+        "No glassmorphism, frosted-glass, or backdrop-blur effects are present on the background or any overlay panels.",
+        "Any gradient or texture used is subtle and soft, not distracting.",
+        "All three buttons ('Take Me Home', 'SOS', 'Other Services') remain clearly visible and readable against the new light background.",
+        "The header/logo area and footer are styled consistently with the light, subtle background theme.",
+        "The overall feel is clean, calm, and trustworthy — not stark or clinical."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter button labels, emoji, or button hierarchy.",
+    "Do not modify files under frontend/src/hooks/ or frontend/src/components/ui.",
+    "Do not introduce glassmorphism, backdrop-blur, or heavy transparency on any element."
+  ],
+  "nonGoals": [
+    "Adding new buttons or navigation routes.",
+    "Changing typography or font choices.",
+    "Modifying the backend in any way.",
+    "Redesigning the overall layout or button arrangement."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

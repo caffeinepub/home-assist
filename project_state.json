@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A splash screen app with three buttons: a large 'Take Me Home' button, an 'SOS' button with a dialer emoji, and an 'Other Services' button. The background should be light and subtle (replacing any lucid/glass effect).",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-splash-screen-as-the-main-landing-page-with-a-visually-engaging-hero-layout-the-screen-should-display-an-app-name-logo-area-at-the-top-and-three-action-buttons-arranged-prominently-below",
+      "title": "Create a splash screen as the main landing page with a visually engaging hero layout. The screen should display an app name/logo area at the top and three action buttons arranged prominently below.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-large-primary-take-me-home-button-as-the-first-and-most-prominent-button-on-the-splash-screen-it-must-be-visually-larger-than-the-other-two-buttons-to-indicate-primary-action-hierarchy",
+      "title": "Add a large primary 'Take Me Home' button as the first and most prominent button on the splash screen. It must be visually larger than the other two buttons to indicate primary action hierarchy.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-secondary-sos-button-with-a-dialer-phone-emoji-displayed-alongside-the-label-this-button-should-be-smaller-than-the-take-me-home-button-but-still-clearly-readable",
+      "title": "Add a secondary 'SOS' button with a dialer/phone emoji (📞) displayed alongside the label. This button should be smaller than the 'Take Me Home' button but still clearly readable.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-tertiary-other-services-button-as-the-third-option-on-the-splash-screen-it-should-be-similar-in-size-to-the-sos-button-and-styled-as-a-secondary-action",
+      "title": "Add a tertiary 'Other Services' button as the third option on the splash screen. It should be similar in size to the SOS button and styled as a secondary action.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-theme-to-the-splash-screen-use-a-warm-trustworthy-color-palette-e-g-deep-teal-or-forest-green-tones-with-warm-neutrals-clean-sans-serif-typography-and-a-full-bleed-background-with-subtle-texture-or-gradient-enforce-the-style-consistently-across-all-elements",
+      "title": "Apply a cohesive visual theme to the splash screen: use a warm, trustworthy color palette (e.g., deep teal or forest green tones with warm neutrals), clean sans-serif typography, and a full-bleed background with subtle texture or gradient. Enforce the style consistently across all elements.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-any-lucid-glassmorphism-or-frosted-glass-background-effects-on-the-splash-screen-with-a-clean-light-background-use-soft-light-neutral-tones-e-g-off-white-light-warm-gray-or-very-light-teal-tint-with-a-subtle-gradient-or-gentle-texture-instead-all-overlay-panels-cards-and-button-containers-should-also-use-light-opaque-or-lightly-translucent-styles-no-blurred-glass-or-heavy-transparency-effects-ensure-text-and-buttons-remain-clearly-legible-against-the-light-background",
+      "title": "Replace any lucid, glassmorphism, or frosted-glass background effects on the splash screen with a clean, light background. Use soft, light neutral tones (e.g., off-white, light warm gray, or very light teal tint) with a subtle gradient or gentle texture instead. All overlay panels, cards, and button containers should also use light, opaque or lightly translucent styles — no blurred glass or heavy transparency effects. Ensure text and buttons remain clearly legible against the light background.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Splash screen with three buttons: large 'Take Me Home', 'SOS' with dialer emoji, and 'Other Services'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Replace lucid/glass effect with a light, subtle background style",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Home Assist",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

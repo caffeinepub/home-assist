@@ -1,0 +1,41 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T16:34:04.030Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-6",
+        "summary": "Replace any lucid, glassmorphism, or frosted-glass background effects on the splash screen with a clean, light background. Use soft, light neutral tones (e.g., off-white, light warm gray, or very light teal tint) with a subtle gradient or gentle texture instead. All overlay panels, cards, and button containers should also use light, opaque or lightly translucent styles — no blurred glass or heavy transparency effects. Ensure text and buttons remain clearly legible against the light background.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/index.css",
+          "frontend/src/pages/SplashScreen.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/index.css",
+          "frontend/src/pages/SplashScreen.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/index.css",
+    "frontend/src/pages/SplashScreen.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace lucid/glass effect with light, subtle background",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "summary": "Replace glassmorphism with light, subtle background styling on splash screen",
+      "acceptanceCriteria": [
+        "The splash screen background is light (off-white, warm light gray, or very light teal tint) with no dark or heavily saturated colors dominating.",
+        "No glassmorphism, frosted-glass, or backdrop-blur effects are present on the background or any overlay panels.",
+        "Any gradient or texture used is subtle and soft, not distracting.",
+        "All three buttons ('Take Me Home', 'SOS', 'Other Services') remain clearly visible and readable against the new light background.",
+        "The header/logo area and footer are styled consistently with the light, subtle background theme.",
+        "The overall feel is clean, calm, and trustworthy — not stark or clinical."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Remove all glassmorphism, backdrop-blur, and heavy transparency effects from splash screen styles. Replace the splash screen background with a light, soft neutral tone (off-white, light warm gray, or very light teal tint) using a subtle gradient or gentle texture. Ensure all button styles, overlay panels, and cards use light, opaque or lightly translucent backgrounds with no frosted-glass effects. Verify that text and button colors remain clearly legible against the new light background. Maintain existing button labels, emoji, and hierarchy without modification."
+        },
+        {
+          "path": "frontend/src/pages/SplashScreen.tsx",
+          "operation": "modify",
+          "description": "Update any inline styles or className attributes that reference glassmorphism, backdrop-blur, or heavy transparency effects. Replace them with light, opaque background classes that align with the new light, subtle design. Ensure the header, footer, and all button containers use the updated light background styling. Do not alter button labels, emoji, or the overall layout structure."
+        }
+      ]
+    }
+  ]
+}

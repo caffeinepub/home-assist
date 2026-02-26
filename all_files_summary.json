@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Minimal Motoko backend actor with no methods or state defined.",
+  "feature_evidence.json": "Feature evidence report linking the glassmorphism-removal feature to its affected files, components, and test IDs.",
+  "frontend-file-summaries.txt": "JSON map of frontend source files to short human-readable summaries of their purpose.",
+  "frontend/index.css": "Base Tailwind CSS entry with OKLCH CSS custom properties for light and dark design tokens, using a neutral gray-scale palette.",
+  "frontend/index.html": "HTML entry point titled 'Home Assist' that mounts the React app into a root div.",
+  "frontend/src/App.tsx": "Root React component that renders only the SplashScreen page.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an authenticated or anonymous ICP backend actor using React Query, invalidating dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom hook and context provider for Internet Identity authentication, exposing login/logout functions and identity state via AuthClient.",
+  "frontend/src/index.css": "Global styles defining a light teal-tinted OKLCH design system with a soft gradient splash screen background, decorative blobs, and no glassmorphism effects.",
+  "frontend/src/main.tsx": "React app entry point that wraps the app with QueryClientProvider and InternetIdentityProvider before rendering.",
+  "frontend/src/pages/SplashScreen.tsx": "Splash screen page with a branding header, 'Take Me Home' primary button, SOS emergency button, 'Other Services' button, and a branded footer.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with Playfair Display/Inter fonts, a custom OKLCH teal color scale, glow shadows, and a fade-up animation.",
+  "project_state.json": "Tracks project state and feature definitions for a splash screen app with three buttons ('Take Me Home', 'SOS', 'Other Services') using a clean light background theme. Contains versioned feature IDs, requirements references, and architectural notes."
+}

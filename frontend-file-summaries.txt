@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Root application component that renders the SplashScreen as the sole view.",
+  "frontend/src/pages/SplashScreen.tsx": "Full-screen splash page with logo/branding header, \"Take Me Home\" primary button, \"📞 SOS\" red button, and \"Other Services\" neutral button, plus a branded footer — background image and dark overlay removed in favour of the CSS-driven light background.",
+  "frontend/src/index.css": "Global styles with a light, soft teal-tinted OKLCH design system; splash screen uses a gentle warm-teal gradient background with subtle radial blob accents, no glassmorphism or backdrop-blur, and all text/button colors updated for legibility on a light background.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Playfair Display/Inter font families, a custom teal color scale, glow box shadows, and a fade-up animation keyframe."
+}
